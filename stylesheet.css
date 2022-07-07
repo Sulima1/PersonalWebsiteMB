@@ -8,10 +8,7 @@ body{
     background-image: url(mattbackground.svg);
 }
 
-nav{
-    border-bottom:solid;
-    color: #7b7b7b;
-}
+
 .nav-link,
 .navbar-brand {
     color: #7b7b7b;
@@ -54,16 +51,11 @@ nav{
     transform: scale(2.5);
 }
 
-footer{
-    border-top:solid;
-    border-color: #E2C044;
-}
-
 #welcome-paragraph{
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-    animation: animtext 4s steps(80, end); 
+    animation: animtext 6s steps(80, end); 
      transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
   }
   @keyframes animtext { 
